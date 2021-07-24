@@ -1,5 +1,5 @@
 export default function manageUsers(state = {
-  users: [],
+  users: []
 }, action){
   switch (action.type) {
     case 'ADD_USER':
